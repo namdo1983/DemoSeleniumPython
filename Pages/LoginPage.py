@@ -15,10 +15,10 @@ class Login():
         self.driver.find_element(By.CSS_SELECTOR, Locator.LOGIN_SUBMENU).click()
 
     def input_1(self):
-        self.driver.find_element ( By.CSS_SELECTOR, Locator.EMAIL_FIELD ).send_keys ('namdd_aptech@yahoo.com')
+        self.driver.find_element ( By.CSS_SELECTOR, Locator.EMAIL_FIELD ).send_keys ('#inputUSERNAME')
 
     def input_2(self):
-        self.driver.find_element ( By.CSS_SELECTOR, Locator.PASSWORD_FIELD ).send_keys ( 'bobo2407' )
+        self.driver.find_element ( By.CSS_SELECTOR, Locator.PASSWORD_FIELD ).send_keys ( '#PASSWORD' )
 
     def click_ok_btn(self):
         elem = self.driver.find_element ( By.XPATH, Locator.LOGIN_BTN )
