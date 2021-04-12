@@ -1,5 +1,6 @@
 from selenium import webdriver
 import HtmlTestRunner
+from webdriver_manager.chrome import ChromeDriverManager
 import unittest
 import time
 
@@ -15,12 +16,13 @@ class TestHomePage(unittest.TestCase):
         #     # driver = webdriver.Chrome ( executable_path=EXE_PATH, chrome_options=options )
         #     # driver.set_window_size ( 1440, 900 )
         #     self.driver.get ( BASE_URL )
+        # path_chrome = r'drivers//chromedriver.exe'
+        self.driver = webdriver.Chrome(ChromeDriverManager().install())
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--disable-infobars")
         prefs = {"profile.default_content_setting_values.notifications": 2}
         chrome_options.add_experimental_option("prefs", prefs)
-        self.driver = webdriver.Chrome(
-            executable_path="drivers//chromedriver.exe", options=chrome_options)
+        self.driver = webdriver.Chrome(options=chrome_options)
         self.driver.maximize_window()
         self.driver.implicitly_wait(5)
         self.driver.set_page_load_timeout(30)
