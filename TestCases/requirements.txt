@@ -163,7 +163,7 @@ pynput-robocorp-fork==2.0.0
 pyOpenSSL==20.0.1
 pyotp==2.4.1
 pyparsing==2.4.7
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyperclip==1.8.1
 pyppeteer==0.2.5
 Pypubsub==4.0.3
