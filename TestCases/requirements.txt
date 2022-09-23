@@ -138,7 +138,7 @@ ply==3.11
 project-demo @ file:///D:/pybuilder/project-demo/target/dist/project-demo-1.0.dev0/dist/project-demo-1.0.dev0.tar.gz
 prompt-toolkit==3.0.10
 Protego==0.1.16
-protobuf==3.15.6
+protobuf==3.18.3
 psutil==5.8.0
 pure-python-adb==0.3.0.dev0
 py==1.10.0
