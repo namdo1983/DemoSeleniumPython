@@ -234,7 +234,7 @@ SQLAlchemy==1.3.22
 style==1.1.0
 tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
-tensorflow==2.3.0
+tensorflow==2.9.3
 tensorflow-estimator==2.3.0
 termcolor==1.1.0
 thonny-black-format==0.0.4
