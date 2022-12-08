@@ -22,7 +22,7 @@ boto==2.49.0
 brython==3.9.1
 bs4==0.0.1
 cached-property==1.5.2
-certifi==2020.12.5
+certifi==2022.12.7
 cffi==1.14.4
 chardet==3.0.4
 cheap-repr==0.4.4
